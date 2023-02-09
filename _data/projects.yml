@@ -1,7 +1,8 @@
-- name: Dissertation Project - Playing American Football By Combining Reinforcement and Imitation Learning
+#Dissertation Project - Playing American Football By Combining Reinforcement and Imitation Learning
+- name: MSc Intelligent Systems & Robotics Project
   link: https://github.com/antarctica2015/MSc-Dissertation
   image: /assets/images/SAFE2.png
-  description: MSc Intelligent Systems & Robotics
+  description: Unity, ML-Agents, C#
   
 - name: Steering Behaviours AI Demo
   link: https://github.com/antarctica2015/SteeringBehaviours
