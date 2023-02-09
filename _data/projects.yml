@@ -11,12 +11,12 @@
   
 - name: GOAP AI Demos
   link: https://github.com/antarctica2015/GOAP-DEMO
-  image: /assets/images/
+  image: /assets/images/GOAP.png
   description: C++, C#
   
 - name: Mobile Robot SLAM Demo
   link: https://github.com/antarctica2015/MR-SLAM-DEMO
-  image: /assets/images/
+  image: /assets/images/SLAM.png
   description: Aria, SFML, C++
   
 #- name: Open Fire
