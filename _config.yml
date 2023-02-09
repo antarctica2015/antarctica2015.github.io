@@ -1,49 +1,103 @@
-# Site Settings
-baseurl: ""
-url : "https://naye0ng.github.io"
+# WhatATheme
+markdown: kramdown
 
-# Blog Settings
-theme_settings :
-  title : Grape Theme
-  favicon : assets/favicon.ico
+# URL of the Site
+url: 'https://antarctica2015.github.io/'
+# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
+baseurl:
 
-  # Profile Settings
-  profile :
-    image : assets/img/smile.png
-    username : Nayeong Kim
-    description : creator of Grape-Theme! Grape-Theme is my first jekyll theme and you can customize this theme easily.
-    experience :
-      - start : 2017-05-03
-        end : 2018-05-06
-        experience : company name, title
-    skills : 
-      - skill : HTML5 & CSS
-        value : 85  # Percent value
-        
-  # Icons
-  icons :
-    email:  # Full email address, e.g. "sample@google.com"
-    linkedin:  # Full URL 
-    github: naye0ng
-    gitlab: 
-    bitbucket: 
-    google_plus:
-    twitter:
-    youtube:
-    facebook:
-    instagram:
+# Title of the Site
+title: Brett Keir Jones
+# Description of the Site
+description: Personal portfolio site
+# URL of Image of the Site
+#site-image: /WhatATheme/assets/images/meta.jpg
+#site-image: /WhatATheme/assets/images/ai_hero.jpg
 
-  # Disqus
-  disqus_shortname :
+# Keywords of the Site
+site-keywords: Portfolio, C.V., Resume, Give-me-a-job-please!
+# URL for the Image of custom Favicon
+favicon-url: 
 
-# Pagination
-paginate: 5
-paginate_path: "blog/page:num"
+# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
+heroimage: https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
 
-# Build Ssttings
+# Social Media and Contact
+# If you don't want to use any icon, you can leave them blank.
+email: brett.keir.jones@gmail.com
+#facebook_username: thedevslot
+#twitter_username: thedevslot
+#instagram_username: thedevslot
+#linkedin_username: thedevslot
+#github_username:  thedevslot
+#youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
+#reddit_username: /
+#behance_username: /
+#dribbble_username: /
+#spotify_username: /
+
+# Google Analytics
+#google-analytics: UA-163806439-1
+
+# Disqus
+#disqus-shortname: thedevslot
+
+# Name of the Author
+author-name: Brett Keir Jones
+# URL for the Image of the Author
+#author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
+author-image: /assets/images/Me.jpg
+
+# 60 Words About the Author
+#author-about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget pharetra velit, dapibus bibendum ex. Maecenas vitae laoreet mauris, ac luctus metus. Aliquam luctus velit vel ipsum feugiat, vel venenatis mauris hendrerit. Sed at vulputate sapien, eget vehicula dolor. Aliquam volutpat pulvinar neque sit amet sodales.
+author-about: "Recently gained MSc Intelligent Systems & Robotics..."
+
+# URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
+author-url: https://github.com/antarctica2015
+
+# SASS
 sass:
   sass_dir: _sass
-  style: :compressed
-gems: [jekyll-paginate]
-bootstrap:
-  assets: true
+  style: compressed
+
+# Build settings
+plugins:
+  - jekyll-admin
+  - jekyll-feed
+
+# Permalink
+permalink: "blog/:title"
+
+# Compress
+compress_html:
+  clippings: all
+
+# Defaults
+defaults:
+  -
+    scope:
+      type: 'posts'
+    values:
+      layout: post
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
+    scope:
+      type: 'pages'
+    values:
+      layout: page
+
+# Exclude
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

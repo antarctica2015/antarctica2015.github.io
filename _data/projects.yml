@@ -1,78 +1,34 @@
-- project :
-    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-    modal : False # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url :  # Full URL
-    image : # path: assets/project/
-    date : 2022.01.01 - 2022.01.10
-    title : MSc Dissertation Project
-    summary : This
-    description : 
-    
-- project :
-    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-    modal : False # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url :  # Full URL
-    image : # path: assets/project/
-    date : 2019.01.01 - 2019.01.01
-    title : Mobile Robot SLAM Demo
-    summary : This
-    description : Aria and SFML
-    
-- project :
-    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-    modal : False # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url :  # Full URL
-    image : # path: assets/project/
-    date : 2019.01.01 - 2019.01.01
-    title : Goal Orientated Action Planning Demo
-    summary : This
-    description : 
-    
-- project :
-    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-    modal : False # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url :  # Full URL
-    image : # path: assets/project/
-    date : 2019.01.01 - 2019.01.01
-    title : Steering Behaviours Demo
-    summary : This
-    description : Ogre 
-    
-- project :
-    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-    modal : False # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url :  # Full URL
-    image : # path: assets/project/
-    date : 2019.01.01 - 2019.01.01
-    title : Steering Behaviours Demo
-    summary : This
-    description : Ogre 
+- name: Dissertation Project - Playing American Football By Combining Reinforcement and Imitation Learning
+  link: https://github.com/antarctica2015/MSc-Dissertation
+  image: /assets/images/SAFE2.png
+  description: MSc Intelligent Systems & Robotics
+  
+- name: Steering Behaviours AI Demo
+  link: https://github.com/antarctica2015/SteeringBehaviours
+  image: /assets/images/flocking.jpg
+  description: OGRE 3D, C++
+  
+- name: GOAP AI Demos
+  link: https://github.com/antarctica2015/GOAP-DEMO
+  image: /assets/images/
+  description: C++, C#
+  
+- name: Mobile Robot SLAM Demo
+  link: https://github.com/antarctica2015/MR-SLAM-DEMO
+  image: /assets/images/
+  description: Aria, SFML, C++
+  
+#- name: Open Fire
+#  link: https://github.com/antarctica2015/
+#  image: /assets/images/
+#  description: Implementation of Open Fire boardgame in Unity 
+  
+#- name: Survival Horror
+#  link: https://github.com/antarctica2015/
+#  image: /assets/images/
+#  description: 
 
-- project :
-    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-    modal : False # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url : https://github.com/naye0ng/Grape-Theme # Full URL
-    image : "portfolio.png" # path: assets/project/
-    date : 2019.06.09 - Developing
-    title : Grape-Theme
-    summary : A awesome jekyll theme!
-    description : This project is my first jekyll theme. and everyone can customize this easily.  
-    contents :
-        - title : 1.
-          image : home.png
-          description : <li>Responsive Layout</li>
-            <li>User Profile</li> 
-            <li>Tags</li> 
-            <li>Projects</li> 
-            <li>Pagination</li>
-        - title : 2.
-          image : tags.png
-          description : <li>Responsive Layout</li> 
-            <li>Tags</li> 
-        - title : 3.
-          image :
-          description : <li>project</li>
-            <li>favicon.ico, search</li>
-            <li>OG Tag</li>
-            <li>profile</li>
-            <li>gem</li> 
+#- name: Fifth Project
+#  link:
+#  image: https://cdn.pixabay.com/photo/2016/12/02/02/10/idea-1876659_960_720.jpg
+#  description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas adipisci tempore illo accusantium consequatur doloremque dignissimos quo, maxime eius cum enim recusandae qui, delectus ea autem architecto? Velit natus, tempora, quaerat voluptates consectetur magnam aliquid veritatis cumque tempore ipsam delectus eveniet distinctio hic quod reiciendis excepturi beatae doloribus, recusandae ex sed sapiente aliquam deleniti! Quis commodi culpa doloremque quaerat rem natus! Vero ipsam expedita id at quidem. In sit voluptatibus error cum? Minima sunt porro, architecto natus accusantium earum rerum voluptate recusandae fugit, error consequatur, quibusdam dolore quod minus culpa ipsa laudantium odit distinctio exercitationem dolorum. Sunt iste cumque a quae reprehenderit sed dolorum, culpa hic dolores saepe asperiores illum consectetur vitae tenetur dolorem voluptatum totam in repellat voluptatibus laudantium deleniti quasi. Adipisci animi cupiditate eligendi optio nemo accusantium sed quo expedita modi dolor autem atque natus, non excepturi. Eaque inventore quis aperiam vel quae dicta tenetur, placeat facilis, natus dignissimos molestias quidem dolor ad voluptate nam harum maxime. Commodi illum esse iste eaque, saepe praesentium, vero adipisci necessitatibus tenetur maiores sit voluptate eos facere doloribus. Explicabo neque quibusdam, sint nihil reprehenderit alias asperiores aperiam rem voluptas quas, in qui odio quos similique at. Illo voluptas temporibus enim laudantium quas?
