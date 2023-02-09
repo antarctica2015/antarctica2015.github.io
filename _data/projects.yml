@@ -11,10 +11,10 @@
   
 - name: GOAP AI Demos
   link: https://github.com/antarctica2015/GOAP-DEMO
-  image: /assets/images/GOAP.png
+  image: /assets/images/GOAP.PNG
   description: C++, C#
   
-- name: Mobile Robot SLAM Demo
+- name: Intelligent Mobile Robot SLAM Demo
   link: https://github.com/antarctica2015/MR-SLAM-DEMO
   image: /assets/images/SLAM.png
   description: Aria, SFML, C++
