@@ -9,7 +9,7 @@
   image: /assets/images/flocking.jpg
   description: OGRE 3D, C++
   
-- name: GOAP AI Demos
+- name: Goal Oriented Acton Planning AI Demos
   link: https://github.com/antarctica2015/GOAP-DEMO
   image: /assets/images/GOAP.PNG
   description: C++, C#
