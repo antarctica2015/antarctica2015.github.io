@@ -1,6 +1,6 @@
 - name: Unreal Engine 5 WIP AI Demo
   link: https://github.com/antarctica2015/
-  image: /assets/images/
+  image: /assets/images/ue5.png
   description: UE 5, C++, Behaviour Trees
   
 - name: MSc Intelligent Systems & Robotics Project
