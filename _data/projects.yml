@@ -7,6 +7,11 @@
   link: https://github.com/antarctica2015/MSc-Dissertation
   image: /assets/images/SAFE2.png
   description: Unity, ML-Agents, C#
+ 
+- name: Intelligent Mobile Robot SLAM Demo
+  link: https://github.com/antarctica2015/MR-SLAM-DEMO
+  image: /assets/images/SLAM.png
+  description: Aria, SFML, C++
   
 - name: Steering Behaviours AI Demo
   link: https://github.com/antarctica2015/SteeringBehaviours
@@ -16,12 +21,7 @@
 - name: Goal Oriented Action Planning AI Demos
   link: https://github.com/antarctica2015/GOAP-DEMO
   image: /assets/images/GOAP.PNG
-  description: C++, C#
-  
-- name: Intelligent Mobile Robot SLAM Demo
-  link: https://github.com/antarctica2015/MR-SLAM-DEMO
-  image: /assets/images/SLAM.png
-  description: Aria, SFML, C++
+  description: FEAR SDK, C++, C#
   
 #- name: Open Fire
 #  link: https://github.com/antarctica2015/
