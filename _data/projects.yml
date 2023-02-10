@@ -10,7 +10,7 @@
   
 - name: Steering Behaviours AI Demo
   link: https://github.com/antarctica2015/SteeringBehaviours
-  image: /assets/images/flocking.jpg
+  image: /assets/images/flocking.png
   description: OGRE 3D, C++
   
 - name: Goal Oriented Action Planning AI Demos
